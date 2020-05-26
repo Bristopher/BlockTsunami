@@ -1,0 +1,23 @@
+main: me.chris.BlockTsunami.Main
+name: BlockTsunami
+version: 2.0
+author: chris
+api-version: 1.15
+
+commands:
+  blocktsunamistart:
+    description: starts deleting blocks(default 1s)
+  blocktsunamistop:
+    description: stops deleting blocks
+  Hello:
+    description: hello? testing??
+  blocktsunamidelay:
+    description: displays current rate blocks dissapear(default = 1s/20ticks)
+  blocktsunamisetdelay:
+    description: sets the delay in ticks (20 ticks = 1 second)
+  blocktsunamiver:
+    description: gives you the current version of the plugin
+  blocktsunamiring:
+    description: give a smoke ring
+  blocktsunamisetpain:
+    description: set pain per block hit (default .1)
